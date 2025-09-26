@@ -21,6 +21,7 @@ function onlyAdmin (req,res,next) {
 
 
 //!  routes
+// move to mvc in next class
 app.get("/",(req,res)=> {
     res.json({status: true, msg: "Welcome to homepage!"})
 })
